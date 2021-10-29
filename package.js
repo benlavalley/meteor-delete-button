@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.8.1');
+  api.versionsFrom('METEOR@2.5');
   api.use(['templating', 'mongo']);
 
   api.addFiles(['delete-button.html', 'delete-button.js'], 'client');
